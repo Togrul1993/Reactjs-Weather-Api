@@ -6,6 +6,7 @@
 
 body{
   font-family: 'montseratt',sans-serif; 
+  background-color: #006266;
 }
 
 .app{
@@ -13,16 +14,36 @@ body{
   background-size: cover;
   background-position: bottom;
   transition: 0.5 ease-out;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
 .app.warm{
   background-image: url("./assets/warm_image.jpg");
+  background-size: cover;
+background-position: bottom;
+transition: 0.5 ease-out;
+width: 500px;
+height: 600px;
+margin: auto;
+margin-top: 20px;
+border-radius: 16px;
+box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}
+
+.app.warm.clear{
+  background-image: url("./assets/warm_and_cold.jpg");
 }
 
 main{
-  min-height: 100vh;
+  height: 100%;
   background-image: linear-gradient(to bottom , rgba(0,0,0,0.2),rgba(0,0,0,0.75));
   padding: 25px;
+  border-radius: 16px;
 }
 
 .search-box{
